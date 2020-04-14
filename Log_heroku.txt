@@ -1,0 +1,19 @@
+2020-04-14T00:19:00.003118+00:00 app[api]: Release v1 created by user yago.santos@aluno.faculdadeimpacta.com.br
+2020-04-14T00:19:00.110493+00:00 app[api]: Release v2 created by user yago.santos@aluno.faculdadeimpacta.com.br
+2020-04-14T00:19:00.110493+00:00 app[api]: Enable Logplex by user yago.santos@aluno.faculdadeimpacta.com.br
+2020-04-14T00:19:00.003118+00:00 app[api]: Initial release by user yago.santos@aluno.faculdadeimpacta.com.br
+2020-04-14T00:19:37.000000+00:00 app[api]: Build started by user yago.santos@aluno.faculdadeimpacta.com.br
+2020-04-14T00:20:03.534359+00:00 app[api]: Deploy 0e6a9e24 by user yago.santos@aluno.faculdadeimpacta.com.br
+2020-04-14T00:20:03.534359+00:00 app[api]: Release v3 created by user yago.santos@aluno.faculdadeimpacta.com.br
+2020-04-14T00:20:12.000000+00:00 app[api]: Build succeeded
+2020-04-14T00:23:21.000000+00:00 app[api]: Build started by user yago.santos@aluno.faculdadeimpacta.com.br
+2020-04-14T00:23:51.864327+00:00 app[api]: Scaled to web@1:Free by user yago.santos@aluno.faculdadeimpacta.com.br
+2020-04-14T00:23:51.849045+00:00 app[api]: Release v4 created by user yago.santos@aluno.faculdadeimpacta.com.br
+2020-04-14T00:23:51.849045+00:00 app[api]: Deploy 6671bcc1 by user yago.santos@aluno.faculdadeimpacta.com.br
+2020-04-14T00:23:58.518180+00:00 heroku[web.1]: State changed from starting to up
+2020-04-14T00:23:58.076976+00:00 app[web.1]: * Running on http://0.0.0.0:3748/ (Press CTRL+C to quit)
+2020-04-14T00:24:00.000000+00:00 app[api]: Build succeeded
+2020-04-14T00:24:39.136253+00:00 heroku[router]: at=info method=GET path="/" host=damp-harbor-38219.herokuapp.com request_id=736e353b-67bd-4a58-801c-66b5543e98b7 fwd="191.181.57.184" dyno=web.1 connect=1ms service=5ms status=200 bytes=522 protocol=https
+2020-04-14T00:24:39.134076+00:00 app[web.1]: 10.143.53.219 - - [14/Apr/2020 00:24:39] "GET / HTTP/1.1" 200 -
+2020-04-14T00:24:39.340493+00:00 app[web.1]: 10.143.53.219 - - [14/Apr/2020 00:24:39] "GET /favicon.ico HTTP/1.1" 404 -
+2020-04-14T00:24:39.342821+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=damp-harbor-38219.herokuapp.com request_id=0b2a4c9e-9af5-45b8-a07b-830949000d9a fwd="191.181.57.184" dyno=web.1 connect=1ms service=12ms status=404 bytes=380 protocol=https
